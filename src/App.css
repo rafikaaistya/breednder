@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #ec5a97;
+  background-image: url(/img/5dbfff829ebe6.jpg);
+  /* width: max-content; */
+  background-repeat: no-repeat !important;
+  height: max-content;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: #eeebe0;
+}
+
+.buttonregister {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 550px;
+  top: 400px;
+  background: linear-gradient(180deg, #ec7a7a 0%, #ec7ab7 100%);
+  border-radius: 50px;
+  font-size: calc(10px + 2vmin);
+  color: #eeebe0;
+}
+
+.buttonlogin {
+  position: absolute;
+  width: 120px;
+  height: 45px;
+  left: 1100px;
+  top: 30px;
+
+  background: linear-gradient(180deg, #ec7a7a 0%, #ec7ab7 100%);
+  border-radius: 10px;
+
+  font-size: calc(10px + 2vmin);
+  align-items: center;
+  text-align: center;
+  color: #eeebe0;
+}
+
+.buttonloginn {
+  width: 100%;
+  height: 49px;
+  left: 56px;
+  top: 484px;
+
+  background: linear-gradient(180deg, #ec7a7a 0%, #ec7ab7 100%);
+  border-radius: 50px !important;
+}
+
+.buttonregisterr {
+  width: 100%;
+  height: 49px;
+  left: 56px;
+  top: 484px;
+  background: linear-gradient(180deg, #ec7a7a 0%, #ec7ab7 100%);
+  border-radius: 50px !important;
+}
+
+.textlore {
+  width: 430px;
+  height: 80px;
+  left: 50px;
+  top: 80px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 50px !important;
+  /* line-height: 64px; */
+
+  /* identical to box height */
+  align-items: center !important;
+  text-align: center !important;
+  display: flex;
+  justify-content: center;
+
+  color: #0e0c0c;
+}
+
+.icon {
+  position: absolute;
+  width: 330px;
+  height: 64px;
+  left: 40px;
+  top: 30px;
+
+  font-family: Opticon;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 64px;
+
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.bottom {
+  position: absolute;
+  width: 1250px;
+  height: 48px;
+  left: 0px;
+  top: 512px;
+
+  background: linear-gradient(180deg, #ec7a7a 0%, #ec7ab7 100%);
+
+  font-family: Avenir;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 50px;
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

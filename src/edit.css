@@ -1,0 +1,296 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.header {
+  position: absolute;
+  width: 200px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(180deg, #ec7a7a 0%, #ec7ab7 100%);
+
+  font-family: Avenir;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 70px;
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+#ind-headere {
+  background-color: #f1cb78;
+  /* background-image: url(/img/204-2040641_cat-cartoon-drawing-owl-vertebrate-png-cute-cartoon.jpg); */
+  /* width: max-content; */
+  /* height: max-content; */
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: #0e0d0d;
+}
+
+#ind-headerre {
+  background-color: #27131c;
+  background-image: url(/img/photo-1513151233558-d860c5398176.jpg);
+  /* width: max-content; */
+  /* height: max-content; */
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: #eeebe0;
+}
+
+.img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 20px;
+  top: 10px;
+  border-radius: 50px;
+}
+
+.imgg {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 10px;
+  top: 10px;
+  border-radius: 10px;
+}
+
+.textloree {
+  width: 430px;
+  height: 80px;
+  left: 50px;
+  top: 80px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 50px !important;
+
+  /* identical to box height */
+  align-items: center !important;
+  text-align: center !important;
+  display: flex;
+  justify-content: center;
+
+  color: #0e0c0c;
+}
+
+.iconnn {
+  position: absolute;
+  width: 330px;
+  height: 64px;
+  left: 40px;
+  top: 80px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 64px;
+
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #8d0303;
+}
+
+.iconnnn {
+  position: absolute;
+  width: 330px;
+  height: 64px;
+  left: 40px;
+  top: 240px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 64px;
+
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #8d0303;
+}
+
+.bottom {
+  position: absolute;
+  width: 1250px;
+  height: 48px;
+  left: 0px;
+  top: 512px;
+
+  background: linear-gradient(180deg, #ec7a7a 0%, #ec7ab7 100%);
+
+  font-family: Avenir;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 50px;
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.scroll {
+  overflow: scroll;
+}
+
+.buttonadd {
+  position: absolute;
+  width: 130px;
+  height: 49px !important;
+  left: 650px;
+  top: 20px;
+
+  background: linear-gradient(180deg, #ec7a7a 0%, #ec7ab7 100%);
+  border-radius: 50px !important;
+}
+
+.buttonedit {
+  position: absolute;
+  background: linear-gradient(180deg, #ec7a7a 0%, #ec7ab7 100%);
+  border-radius: 50px !important;
+  width: 130px;
+  height: 30px !important;
+  top: 450px;
+  left: 150px;
+}
+
+.buttonlogout {
+  position: absolute;
+  width: 120px;
+  height: 30px !important;
+  left: 150px;
+  top: 220px;
+  border-radius: 50px !important;
+
+  background: linear-gradient(180deg, #ec7a7a 0%, #ec7ab7 100%);
+}
+
+.logout {
+  position: absolute;
+  width: 10px;
+  height: 70px;
+  left: 40px;
+  top: -22px !important;
+  font-size: 16px;
+}
+
+.buttonkirim {
+  width: 100%;
+  height: 49px;
+  left: 56px;
+  top: 484px;
+  background: linear-gradient(180deg, #ec7a7a 0%, #ec7ab7 100%);
+  border-radius: 50px !important;
+}
+
+.paget {
+  position: absolute;
+  width: 420px !important;
+  height: 30px;
+  left: -61px !important;
+  top: 20px;
+
+  background: #ffffff;
+}
+.pagett {
+  position: absolute;
+  width: 420px;
+  height: 30px;
+  left: -61px;
+  top: 85px;
+
+  background: #ffffff;
+}
+
+.note {
+  /* position: absolute; */
+  top: -10px !important;
+  font-family: sans-serif;
+  float: left;
+  padding-left: 20px;
+  font-size: 16px;
+  color: #0e0c0c;
+}
+
+.notee {
+  font-family: sans-serif;
+  float: right;
+  padding-right: 190px;
+  font-size: 16px;
+  color: #0e0c0c !important;
+}
+
+.select {
+  position: absolute;
+  width: 150px !important;
+  height: fit-content !important;
+  left: -100px !important;
+  top: 55px;
+  font-family: sans-serif;
+  float: left;
+  padding-left: 0px;
+  font-size: 12px;
+  color: #0e0c0c;
+}
+
+.selectt {
+  position: absolute;
+  width: 280px !important;
+  height: fit-content !important;
+  left: -180px !important;
+  top: -15px;
+  font-family: sans-serif;
+  float: left;
+  padding-left: 170px;
+  font-size: 12px;
+  color: #0e0c0c;
+}
+
+.flex-container {
+  left: 30px;
+  top: 10px;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  padding-left: 0%;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  padding: 10px;
+  height: 110px;
+  margin: 10px;
+  border-radius: 10px;
+}

@@ -1,0 +1,175 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.header {
+  position: absolute;
+  width: 460px !important;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(180deg, #ec7a7a 0%, #ec7ab7 100%);
+
+  font-family: Avenir;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 70px;
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+#ind-header {
+  background-color: #f1cb78 !important;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #e42e55;
+}
+
+#ind-headerr {
+  background-color: #c45656 !important;
+  background-image: url(/img/photo-1513151233558-d860c5398176.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: #eeebe0;
+}
+
+.img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 60px !important;
+  top: 10px;
+  border-radius: 50px;
+}
+
+.textlore {
+  width: 430px;
+  height: 80px;
+  left: 50px;
+  top: 80px;
+
+  font-family: Avenir 85 Heavy;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 50px !important;
+  /* line-height: 64px; */
+
+  /* identical to box height */
+  align-items: center !important;
+  text-align: center !important;
+  display: flex;
+  justify-content: center;
+
+  color: #0e0c0c;
+}
+
+.iconn {
+  position: absolute;
+  width: 330px;
+  height: 64px;
+  left: 40px;
+  top: 80px;
+
+  /* font-family: Opticon; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 64px;
+
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #8d0303;
+}
+
+.icon {
+  position: absolute;
+  width: 330px;
+  height: 64px;
+  left: 40px;
+  top: 30px;
+
+  font-family: Opticon;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 64px;
+
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.bottom {
+  position: absolute;
+  width: 1250px;
+  height: 48px;
+  left: 0px;
+  top: 512px;
+
+  background: linear-gradient(180deg, #ec7a7a 0%, #ec7ab7 100%);
+
+  font-family: Avenir;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 50px;
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.scroll {
+  overflow: scroll;
+}
+
+.flex-containerr {
+  left: 30px;
+  top: 140px;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  padding-left: 0%;
+}
+
+.flex-containerr > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  padding: 10px;
+  height: 110px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.imgg {
+  width: 100px !important;
+  height: 110px !important;
+  border-radius: 10px;
+}
